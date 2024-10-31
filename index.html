@@ -1,12 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" font="Manrope" data-theme="light">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Architecture-Organaization-Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Required Favicon -->
+    <link
+    rel="icon"
+    type="image/png"
+    href="./assets/favicon/favicon-96x96.png"
+    sizes="96x96"
+    />
+
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
+    <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="./assets/favicon/apple-touch-icon.png"
+    />
+
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+
+    <!-- Required google cdn tags -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800& display=swap" rel="stylesheet">
+
+    <!-- Required fontawesome -->
+    <link rel="stylesheet" href="./assets/iconsPack/all.css">
+
+    <!-- Required cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <!-- Smartsupp Live Chat script -->
+    <script type="text/javascript">
+    var _smartsupp = _smartsupp || {};
+    _smartsupp.key = '01f6c825d486c7a1d89b1c51d4f019259d4b2ca7';
+    window.smartsupp||(function(d) {
+    var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+    s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+    c.type='text/javascript';c.charset='utf-8';c.async=true;
+    c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+    })(document);
+    </script>
+    <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
+
+    <!-- font style -->
+    <style>
+        .font-manrope {
+            font-family: "Manrope", serif;
+        }
+    </style>
+
+
+    <!-- Page Title -->
+    <title>Barn House Design</title>
 </head>
-<body>
-    
+<body class="font-manrope">
+    <header>
+        <nav>
+            <!-- Navbar -->
+            <div class="navbar bg-[#F6F6F6] px-8">
+                <div class="navbar-start">
+                    <div id="brand" class="flex items-center justify-center">
+                        <img src="./assets/arrow-up-right-01.png" alt="brand-logo" class="w-full">
+                        <a href="#home" class="font-extrabold text-2xl ml-1 text-neutral-800">Rinterio</a>
+                    </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="grid grid-flow-col gap-4 px-1 font-normal text-neutral-500 text-base ">
+                        <li><a href="#home" class="text-neutral-700 font-bold">Home</a></li>
+                        <li class="hover:text-neutral-800"><a href="#">Services</a></li>
+                        <li class="hover:text-neutral-800"><a href="#">Portfolio</a></li>
+                        <li class="hover:text-neutral-800"><a href="#">Blog</a></li>
+                        <li class="hover:text-neutral-800"><a href="#contactUs" title="(tel:+8801612041994)">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ml-3">
+                            <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" 
+                            />
+                            </svg>
+                        </div>
+                        <ul
+                        tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li>
+                                <details>
+                                    <summary>Contact Us</summary>
+                                        <ul class="p-2">
+                                            <li><a href="href="tel:+8801612041994">Helpline</a></li>
+                                        </ul>
+                                </details>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+         
+    </header>
 </body>
 </html>
